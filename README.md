@@ -2,7 +2,7 @@ Shiny dashboard to explore some anova exercises. Custom analyses can be made by 
 
 **To launch**
 
-Shiny needs to be loaded : 
+Shiny needs to be loaded: 
 
 ```{r}
 if (!require("shiny")) {
@@ -15,11 +15,9 @@ Then run:
 runGitHub("nagosto/aov-dashboard", ref="main")
 ```
 
-or to clone the repository, run instead:
+or to clone the repository instead, then run:
 
 ```{r}
-library(usethis)
-
 if (!require("usethis")) {
     install.packages("usethis")
     library(usethis)
