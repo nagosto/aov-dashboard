@@ -1,6 +1,6 @@
 Shiny dashboard to explore some anova exercises. Custom analyses can be made by filling empty tables.
 
-# To launch
+**To launch**
 
 Shiny needs to be loaded : 
 
@@ -28,5 +28,5 @@ create_from_github(
   "nagosto/aov-dashboard",
   protocol='https')
 runApp()
-```{r}
+```
 
